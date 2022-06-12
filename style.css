@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient( to right, #e66465, #9198e5);
+}
+
+.container {
+    display: grid;
+    grid-gap: 0px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 80px);
+}
+
+.myBoard{
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    font-size: 80px;
+    background-color: white;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 20px
+}
+
+.winner {
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: rgb(126, 192, 159);
+    font-weight: bold;
+    margin: 0px 10px;
+
+}
+
+.skore {
+    text-align: center;
+}
+
+.skore div{
+    display:inline-block;
+    margin: 5px 200px
+}
+
+.dropdown {
+    display:none;
+    margin: 0px 10px; 
+    background-color: rgb(209, 209, 209);
+    width: 220px;
+    padding: 10px;
+}
+
+input {
+    display:block;
+    margin: 3px;
+}
+
+.submit {
+    padding: 5px;
+    margin:3px 150px
+}
